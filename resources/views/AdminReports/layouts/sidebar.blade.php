@@ -1,0 +1,26 @@
+
+<!-- Sidebar -->
+<aside class="sidebar d-flex flex-column">
+    <div class="sidebar-logo text-center py-3">
+        <img src="../assets/images/logo/logosaloon.webp" alt="Salon Logo" class="logo-img" />
+    </div>
+
+    <div class="sidebar-buttons d-flex flex-wrap justify-content-center px-2 pb-3">
+        <a href="{{ route('admin.dashboard') }}" class="sidebar-card text-center">
+            <i class="bi bi-calendar-check-fill"></i>
+            <div class="label">Dashboard</div>
+        </a>
+        <a href="{{ route('admin.manage') }}" class="sidebar-card text-center">
+            <i class="bi bi-pie-chart-fill"></i>
+            <div class="label">Manage</div>
+        </a>
+        <a href="{{ route('adminreports.index') }}" class="sidebar-card text-center">
+            <i class="bi bi-file-earmark-fill"></i>
+            <div class="label">Report</div>
+        </a>
+        <a href="#" class="sidebar-card text-center">
+            <i class="bi bi-gear-fill"></i>
+            <div class="label">Settings</div>
+        </a>
+    </div>
+</aside>
